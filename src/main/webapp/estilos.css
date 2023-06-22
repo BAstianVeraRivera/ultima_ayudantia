@@ -1,0 +1,101 @@
+.contenido {
+    display: flex;
+    flex-direction: row;
+    height: 70%;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.lista {
+    list-style-type: square;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    color:rgb(0, 0, 0);
+}
+.texto-2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(255, 255, 255, 0.69);
+    text-shadow: 1px 1px 1px black;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.texto {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 2px black;
+    color: white;
+    align-items: center;
+    vertical-align: middle;
+}
+button{
+    font-size: 0.8em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    color: white;
+    background-color: #01356E;
+}
+button:hover{
+    background-color:#3e84cf;
+}
+.fondo {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: #9fb4d2;
+}
+.contenedor {
+    width: 100%;
+    margin: auto;
+    height: 30vw;
+    background-color: #01356E;
+    box-shadow: 2px 2px 2px;
+    border-radius: 15px;
+}
+.titulo {
+    width: 100%;
+    height: 30%;
+    color: #ffffff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo-texto {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+}
+
+.enlaces {
+    width: 100%;
+    height: 70%;
+    color: #01356E;
+    text-decoration: none;
+}
+
+.enlaces-texto {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #01356E;
+    text-decoration: none;
+}
+.fondo-actualizar-articulo {
+    width: 30%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: #9fb4d2;
+}
+
+
+
+
+
